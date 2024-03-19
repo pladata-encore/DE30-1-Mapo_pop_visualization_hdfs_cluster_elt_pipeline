@@ -17,4 +17,16 @@
 <!-- Put site-specific property overrides in this file. -->
 
 <configuration>
+	<property>
+		<name>fs.defaultFS</name>
+		<value>hdfs://namenode01:9000</value>
+	</property>
+	<property>
+		<name>io.file.buffer.size</name>
+		<value>131072</value>
+	</property>
+	<property>
+		<name>hadoop.tmp.dir</name>
+		<value>/root/hadoop-3.3.6/tmp</value>
+	</property>
 </configuration>
