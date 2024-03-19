@@ -1,1 +1,2 @@
-# DE30-1-Mapo_pop_visualization_hdfs_cluster_elt_pipeline
+# 팀원
+### 이수형,김경현,김민승,김민성,이진수
