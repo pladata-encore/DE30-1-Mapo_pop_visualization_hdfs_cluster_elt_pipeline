@@ -17,5 +17,8 @@
 <!-- Put site-specific property overrides in this file. -->
 
 <configuration>
-
+	<property>
+		<name>dfs.namenode.secondary.http-address</name>
+		<value>namenode02:9868</value>
+	</property>
 </configuration>
