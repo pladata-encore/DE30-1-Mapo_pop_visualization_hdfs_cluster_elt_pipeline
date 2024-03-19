@@ -17,5 +17,16 @@
 <!-- Put site-specific property overrides in this file. -->
 
 <configuration>
-
+        <property>
+                <name>dfs.replication</name>
+                <value>3</value>
+        </property>
+        <property>
+                <name>dfs.permissions</name>
+                <value>false</value>
+        </property>
+        <property>
+                <name>dfs.datanode.data.dir</name>
+                <value>/root/hadoop-3.3.6/datanode/dir</value>
+        </property>
 </configuration>
