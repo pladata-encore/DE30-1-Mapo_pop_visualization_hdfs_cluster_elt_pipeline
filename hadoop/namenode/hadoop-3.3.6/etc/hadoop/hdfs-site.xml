@@ -17,5 +17,32 @@
 <!-- Put site-specific property overrides in this file. -->
 
 <configuration>
-
+	<property>
+		<name>dfs.replications</name>
+		<value>3</value>
+	</property>
+	<property>
+		<name>dfs.permissions</name>
+		<value>false</value>
+	</property>
+	<property>
+		<name>dfs.namenode.name.dir</name>
+		<value>/root/hadoop-3.3.6/namenode/dir</value>
+	</property>
+	<property>
+		<name>dfs.namenode.http-address</name>
+		<value>namenode01:9870</value>
+	</property>
+	<property>
+		<name>dfs.namenode.secondary.http-address</name>
+		<value>namenode02:9868</value>
+	</property>
+	<property>
+		<name>dfs.client.use.datanode.hostname</name>
+		<value>true</value>
+	</property>
+	<property>
+		<name>dfs.hosts</name>
+		<value>/root/hadoop-3.3.6/etc/hadoop/workers</value>
+	</property>
 </configuration>
